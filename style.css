@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 20px auto;
+}
+
+
+.square {
+    width: calc(100%/16);
+    padding-bottom: calc((100%/16) - 6px);
+    height: 0;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.container .square {
+    margin-top: -3px;
+    margin-left: -3px;
+}
